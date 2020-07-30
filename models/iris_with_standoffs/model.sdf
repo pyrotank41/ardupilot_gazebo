@@ -3,13 +3,15 @@
   <model name='iris'>
     <pose>0 0 0.194923 0 0 0</pose>
     <link name='base_link'>
+      <enable_wind>true</enable_wind>
+      <wind>10 10 0</wind>
       <velocity_decay>
         <linear>0.0</linear>
         <angular>0.0</angular>
       </velocity_decay>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
-        <mass>1.5</mass>
+        <mass>2</mass>
         <inertia>
           <ixx>0.008</ixx>
           <ixy>0</ixy>

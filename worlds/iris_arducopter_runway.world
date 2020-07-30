@@ -53,7 +53,7 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>1829 45</size>
+              <size>1800 49</size>
             </plane>
           </geometry>
           <material>
@@ -84,7 +84,7 @@
       </link>
     </model>
 
-    <model name="iris_demo">
+    <model name="iris_demo_test">
       <include>
         <uri>model://iris_with_ardupilot</uri>
       </include>
