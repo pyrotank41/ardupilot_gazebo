@@ -1891,6 +1891,23 @@ material Gazebo/Aruco288
   }
 }
 
+material Gazebo/Aruco201
+{
+  receive_shadows on
+
+  technique
+  {
+    pass
+    {
+
+      texture_unit
+      {
+        texture aruco_201.png
+      }
+    }
+  }
+}
+
 material Gazebo/Aruco392
 {
   receive_shadows on
@@ -1954,6 +1971,23 @@ material Gazebo/Number1
       texture_unit
       {
         texture number_1.png
+      }
+    }
+  }
+}
+
+material Gazebo/Taco
+{
+  receive_shadows on
+
+  technique
+  {
+    pass
+    {
+
+      texture_unit
+      {
+        texture taco.png
       }
     }
   }

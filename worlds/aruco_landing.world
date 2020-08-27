@@ -76,14 +76,14 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>.5 .5</size>
+              <size>.2 .2</size>
             </plane>
           </geometry>
 
           <material>
             <script>
               <uri>file://media/materials/scripts/gazebo2.material</uri>
-              <name>Gazebo/Aruco129</name>
+              <name>Gazebo/Aruco72</name>
             </script>
           </material>
 
